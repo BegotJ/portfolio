@@ -64,7 +64,7 @@ export default class Contactus extends Component {
                     <span>07 83 59 39 42</span><br />
                   </p>
               </div>
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Derniers Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -84,7 +84,8 @@ export default class Contactus extends Component {
                     <b><a href="#">3 Days Ago</a></b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
+              
             </aside>
           </div>
         </section>
