@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://begotjulien.github.io/",
-    "name": "Your name",
-    "role": "Frontend Developer"
+    "name": "Bégot Julien",
+    "role": "Développeur Backend"
     }
   
   export default resumeData

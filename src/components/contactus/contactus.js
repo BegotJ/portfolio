@@ -21,16 +21,20 @@ export default class Contactus extends Component {
               <form action method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
-                    <label htmlFor="contactName">Name <span className="required">*</span></label>
-                    <input type="text" defaultValue size={35} id="contactName" name="contactName" />
+                    <label htmlFor="contactName">Nom <span className="required">*</span></label>
+                    <input type="text" size={35} id="contactName" name="contactName" placeholder="Jean" defaultValue={""}/>
+                  </div>
+                  <div>
+                    <label htmlFor="contactFirstname">Prénom <span className="required">*</span></label>
+                    <input type="text" size={35} id="contactFirstname" name="contactName" placeholder="Jean" defaultValue={""}/>
                   </div>
                   <div>
                     <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                    <input type="text" defaultValue size={35} id="contactEmail" name="contactEmail" />
+                    <input type="text" size={35} id="contactEmail" name="contactEmail" placeholder="Valjean" defaultValue={""}/>
                   </div>
                   <div>
-                    <label htmlFor="contactSubject">Subject</label>
-                    <input type="text" defaultValue size={35} id="contactSubject" name="contactSubject" />
+                    <label htmlFor="contactSubject">Sujet</label>
+                    <input type="text" size={35} id="contactSubject" name="contactSubject" placeholder="Proposition de projet" defaultValue={""}/>
                   </div>
                   <div>
                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
@@ -53,22 +57,21 @@ export default class Contactus extends Component {
             </div>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>Adresse et Téléphone</h4>
                 <p className="address">
-                  Jonathan Doe<br />
-                  1600 Amphitheatre Parkway <br />
-                  Mountain View, CA 94043 US<br />
-                  <span>(123) 456-7890</span>
-                </p>
+                    <span>Bégot Julien</span><br />
+                    <span>Bordeaux, 33800 FR</span><br />
+                    <span>07 83 59 39 42</span><br />
+                  </p>
               </div>
               <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
+                <h4 className="widget-title">Derniers Tweets</h4>
                 <ul id="twitter">
                   <li>
                     <span>
-                      This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                      Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="#">http://t.co/CGIrdxIlI3</a>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                      eaque ipsa quae ab illo inventore veritatis et quasi
+                       <a href="#"> http://t.co/CGIrdxIlI3</a>
                     </span>
                     <b><a href="#">2 Days Ago</a></b>
                   </li>
@@ -76,7 +79,7 @@ export default class Contactus extends Component {
                     <span>
                       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                       eaque ipsa quae ab illo inventore veritatis et quasi
-                      <a href="#">http://t.co/CGIrdxIlI3</a>
+                       <a href="#"> http://t.co/CGIrdxIlI3</a>
                     </span>
                     <b><a href="#">3 Days Ago</a></b>
                   </li>

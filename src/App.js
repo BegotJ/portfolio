@@ -16,7 +16,7 @@ class App extends Component {
         <About />
         <Resume />
         <Portfolio />
-        <Calltoaction />
+        {/* <Calltoaction /> */}
         <Testimonials />
         <ContactUs />
         <Footer />
