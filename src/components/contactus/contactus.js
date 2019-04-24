@@ -22,7 +22,7 @@ export default class Contactus extends Component {
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">Nom <span className="required">*</span></label>
-                    <input type="text" size={35} id="contactName" name="contactName" placeholder="Jean" defaultValue={""}/>
+                    <input type="text" size={35} id="contactName" name="contactName" placeholder="Valjean" defaultValue={""}/>
                   </div>
                   <div>
                     <label htmlFor="contactFirstname">Prénom <span className="required">*</span></label>
@@ -30,7 +30,7 @@ export default class Contactus extends Component {
                   </div>
                   <div>
                     <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-                    <input type="text" size={35} id="contactEmail" name="contactEmail" placeholder="Valjean" defaultValue={""}/>
+                    <input type="text" size={35} id="contactEmail" name="contactEmail" placeholder="jean.valjean33@gmail.com" defaultValue={""}/>
                   </div>
                   <div>
                     <label htmlFor="contactSubject">Sujet</label>
